@@ -1,5 +1,6 @@
 #Bootstrap-script to automatize docker installation on Ubuntu20
 
+#!/bin/bash
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
